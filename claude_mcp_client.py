@@ -9,7 +9,6 @@ from typing import Dict, List, Any, Optional
 
 CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 MCP_SERVER_URL = os.environ.get("MCP_SERVER_URL", "http://localhost:5001")
-os.environ["CLAUDE_API_KEY"] = "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"
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY","")
 
 class ClaudeClient:
