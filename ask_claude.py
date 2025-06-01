@@ -5,7 +5,6 @@ import argparse
 import json
 from claude_mcp_client import ClaudeClient
 
-os.environ["CLAUDE_API_KEY"] = "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"
 
 def check_mcp_server():
     mcp_url = os.environ.get("MCP_SERVER_URL","http://localhost:5001")
