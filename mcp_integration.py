@@ -7,7 +7,7 @@ from dataclasses import dataclass, asdict
 import openai 
 import anthropic
 
-os.environ["CLAUDE_API_KEY"] = "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"
+
 DUCKDUCKGO_ENDPOINT = "https://api.duckduckgo.com"
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY","")
 
